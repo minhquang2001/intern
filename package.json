@@ -12,6 +12,7 @@
   "dependencies": {
     "@capacitor/android": "^5.2.2",
     "@capacitor/cli": "^5.2.2",
+    "@capacitor/clipboard": "^5.0.6",
     "@capacitor/core": "^5.2.2",
     "@capacitor/ios": "^5.2.2",
     "@nuxtjs/vuetify": "^1.12.3",
@@ -22,12 +23,10 @@
     "vue-template-compiler": "^2.7.10"
   },
   "description": "## Build Setup",
-  "main": "nuxt.config.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "test"
-  },
   "author": "quang",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.11.0",
+    "cypress": "^12.17.2"
+  }
 }

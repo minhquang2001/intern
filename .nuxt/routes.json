@@ -1,0 +1,16 @@
+[
+  {
+    "name": "index.cy",
+    "path": "/index.cy",
+    "component": "/Users/phamquang/Documents/GitHub/intern/pages/index.cy.js",
+    "chunkName": "pages/index.cy",
+    "_name": "_0990e195"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/phamquang/Documents/GitHub/intern/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6fdc834c"
+  }
+]

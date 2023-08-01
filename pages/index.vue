@@ -5,14 +5,14 @@
       <div>
         <h1>Chào bạn</h1>
         <div class="wrap__form">
-          <input type="text" placeholder="...nhập text ở đây" spellcheck="false">
+          <input type="text" v-model="textCopy" placeholder="...nhập text ở đây" spellcheck="false">
           <div @click="copy">
             <Wrapbutton :text="'COPY'" style="font-weight: 600;" />
           </div>
 
         </div>
       </div>
-      <div class="wrap__form" :class="{ 'show': showDiv, 'hide': !showDiv }" >
+      <div class="wrap__form" :class="{ 'show': showDiv, 'hide': !showDiv }">
         <h4>copied</h4>
         <div @click="confirm">
           <Wrapbutton :text="'ok'" style="font-weight: 600;" />
@@ -24,18 +24,25 @@
 
 <script>
 import Wrapbutton from '../components/Wrapbutton.vue';
+import { Clipboard } from '@capacitor/clipboard';
+
 
 export default {
   name: 'IndexPage',
   components: { Wrapbutton },
   data() {
     return {
+      textCopy: '',
       showDiv: false,
     };
   },
   methods: {
-    copy() {
+    async copy() {
+      await Clipboard.write({
+        string: this.textCopy
+      });
       this.showDiv = true;
+      console.log(this.textCopy)
       if (this.showDiv) {
         this.hideTimeOut()
       }
@@ -50,4 +57,5 @@ export default {
     }
   },
 }
+
 </script>

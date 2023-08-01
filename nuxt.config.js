@@ -1,3 +1,5 @@
+import path from 'path'
+import fs from 'fs'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -44,11 +46,10 @@ export default {
   build: {
   },
   server: {
-    port: 8000, // default: 3000
-    host: '0.0.0.0', // default: localhost,
-    timing: false
-  },
-  presets: [
-    '@vue/app'
-  ]
+    https: {
+      key: require('fs').readFileSync('./server/server.key'),
+      cert: require('fs').readFileSync('./server/server.crt')
+    }
+  }
+  
 }
