@@ -8,4 +8,3 @@ You can directly use them in pages and other components without the need to impo
 
 - `<WrapbuttonCy>` | `<wrapbutton-cy>` (components/Wrapbutton.cy.js)
 - `<Wrapbutton>` | `<wrapbutton>` (components/Wrapbutton.vue)
-- `<Wrapcontent>` | `<wrapcontent>` (components/wrapcontent.vue)
