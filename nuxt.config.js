@@ -49,7 +49,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    
   },
+  ssr: false,
   server: {
     https: {
       key: require('fs').readFileSync('./server/server.key'),

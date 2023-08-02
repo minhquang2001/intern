@@ -1,0 +1,19 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/wrapbutton-cy.js": "components/wrapbutton-cy.js",
+    "components/wrapbutton.js": "components/wrapbutton.js",
+    "components/wrapcontent.js": "components/wrapcontent.js",
+    "pages/index.cy.js": "pages/index.cy.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/wrapbutton-cy.js": "components/wrapbutton-cy.js.map",
+    "components/wrapbutton.js": "components/wrapbutton.js.map",
+    "components/wrapcontent.js": "components/wrapcontent.js.map",
+    "pages/index.cy.js": "pages/index.cy.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
