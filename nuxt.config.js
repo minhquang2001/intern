@@ -17,11 +17,11 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  routeRules: {
-    '/examples/*': { redirect: '/redirect-route' },
-    '/modify-headers-route': { headers: { 'x-magic-of': 'nuxt and vercel' } },
-    '/spa': { ssr: false },
-  },
+  // routeRules: {
+  //   '/examples/*': { redirect: '/redirect-route' },
+  //   '/modify-headers-route': { headers: { 'x-magic-of': 'nuxt and vercel' } },
+  //   '/spa': { ssr: false },
+  // },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -37,7 +37,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/vuetify'
+    // '@nuxtjs/vuetify'
   ],
   vuetify: {
     /* module options */
