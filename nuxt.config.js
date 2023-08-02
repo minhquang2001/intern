@@ -51,7 +51,7 @@ export default {
   build: {
     
   },
-  ssr: false,
+  
   server: {
     https: {
       key: require('fs').readFileSync('./server/server.key'),
