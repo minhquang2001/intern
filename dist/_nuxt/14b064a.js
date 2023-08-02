@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{261:function(t,n,e){"use strict";e.r(n);var r={props:["text"]},o=e(42),component=Object(o.a)(r,(function(){var t=this;return(0,t._self._c)("v-btn",{staticStyle:{"background-color":"#d9d9d9"},attrs:{variant:"text"}},[t._v("\n  "+t._s(t.text)+"\n")])}),[],!1,null,null,null);n.default=component.exports}}]);

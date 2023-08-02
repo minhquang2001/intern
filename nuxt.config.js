@@ -1,5 +1,4 @@
-import path from 'path'
-import fs from 'fs'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -17,11 +16,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  target: 'static',
-  ssr: false,
-  generate: {
-    fallback: true
-  },
+  
   // routeRules: {
   //   '/examples/*': { redirect: '/redirect-route' },
   //   '/modify-headers-route': { headers: { 'x-magic-of': 'nuxt and vercel' } },
