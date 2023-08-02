@@ -62,6 +62,7 @@ export default {
       key: require('fs').readFileSync('./server/server.key'),
       cert: require('fs').readFileSync('./server/server.crt')
     }
-  }
+  },
+  
   
 }
